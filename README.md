@@ -1,7 +1,16 @@
 # Netshow GPT
 
-Create React APP
-Configured Tailwind
+- Create React APP
+- Configured Tailwind
+- Header
+- App Routing
+- Login Form
+- Sign Up Form
+- Form Validation
+- useRef Hook
+- Firebase Setup
+- Create Signup User Account
+- Implement Sign In user API
 
 
 # Features
