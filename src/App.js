@@ -4,17 +4,25 @@ import Authentication from "./Page/Authentication";
 import Browse from "./components/Browse";
 import { Provider } from "react-redux";
 import appStore from "./utils/Redux/appStore";
+import Body from "./components/Body";
 
 function App() {
   const appRouter = createBrowserRouter([
     {
       path: "/",
-      element: <Authentication />,
+      element: <Body/>,
+      children: [
+        {
+          path: '/',
+          element:<Authentication />
+        },
+        {
+          path: "/browse",
+          element: <Browse />,
+        },
+      ]
     },
-    {
-      path: "/browse",
-      element: <Browse />,
-    },
+    
   ]);
 
   return (

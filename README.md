@@ -12,6 +12,10 @@
 - Create Signup User Account
 - Implement Sign In user API
 
+# Bug fix
+- Sign Up user displayName and Profile picture update
+- If the user is not logged in  redirect /browse to login page and Vice-Versa.
+
 
 # Features
 - Login/Sign Up
